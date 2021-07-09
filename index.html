@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="shortcut icon" href="/img/icon-transform.png" type="image/png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Transform</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="titulo">Transform</h1>
+        <h3 id="descrição">Transforma qualquer palavra em maiúsculo ou em minúsculo</h3>
+    </header>
+
+    <main>
+        <div id="container" class="container.is-widescreen">
+            
+            <div id="text-container">
+                <textarea name="#" id="entrada" cols="30" rows="10" placeholder="Digite ou cole texto aqui..."
+                    style="resize: none;"></textarea>
+            </div>
+            <div id="button-container">
+                <input type="button" value="Minúsculo" id="button1"
+                    class="btn button is-primary is-light button is-medium botão-pequeno" onclick="minu()">
+                <input type="button" value="Maiúsculo" id="button2"
+                    class="btn button is-primary is-light button is-medium botão-pequeno" onclick="maiusculo()">
+            </div>
+        </div>
+
+        
+            <div id="saida-container">
+                <p id="saida"></p>
+            </div>
+    </main>
+
+    <footer>
+        <div id="foot-container">
+            <div id="redes-container">
+                <a href="https://www.facebook.com/profile.php?id=100005225508077" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://github.com/jonas-nb" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/jonas.nb4/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://api.whatsapp.com/message/ZOR56XRNHOSBF1" target="_blank"><i
+                        class="fab fa-whatsapp"></i></a>
+            </div>
+            <h1> Copyright&copy; 2021</h1>
+        </div>
+    </footer>
+
+    <script src="/Script.js"></script>
+</body>
+
+</html>
